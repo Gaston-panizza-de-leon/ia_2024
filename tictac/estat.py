@@ -9,7 +9,6 @@ class Estat:
         self.taulell = taulell
         self.accions_previes = accions_previes
         self.agent_actual = agent_actual
-        self.taulell = []
 
     def es_meta(self) -> bool:
         pos_x, pos_y = self.accions_previes[-1]
@@ -88,3 +87,7 @@ class Estat:
             best_lineal = count
 
         return best_lineal >= 3
+
+    def generar_fills(self):
+
+

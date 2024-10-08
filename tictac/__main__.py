@@ -2,7 +2,7 @@ from tictac import agent, joc
 
 
 def main():
-    quatre = joc.Taulell([agent.Agent("Miquel")], mida_taulell=(5, 5), dificultat=3)
+    quatre = joc.Taulell([agent.Agent("Jugador 1"), agent.Agent("Jugador 2")], mida_taulell=(3, 3), dificultat=3)
     quatre.comencar()
 
 
