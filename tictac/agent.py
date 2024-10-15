@@ -22,7 +22,7 @@ class Agent(joc.Agent):
     ) -> entorn.Accio | tuple[entorn.Accio, object]:
         return joc.Accio.ESPERAR
 
-    def minimax(estat, torn_de_max):
+    """def minimax(estat, torn_de_max):
         if evaluar(estat, torn_de_max) != None:
             return estat, score
 
@@ -34,4 +34,4 @@ class Agent(joc.Agent):
 
     def evaluar(estat, jugador):
         if estat.meta():
-            return puntuacio(jugador)
+            return puntuacio(jugador)"""
