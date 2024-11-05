@@ -20,7 +20,6 @@ def main():
         episodes=1000,
         stop_at_convergence=True,
     )
-
     game.reset()
     game.set_agent([agent])
     game.comencar()
