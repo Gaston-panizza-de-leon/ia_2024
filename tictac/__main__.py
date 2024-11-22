@@ -1,5 +1,4 @@
 from tictac import joc
-from tictac import agent_s_no as agent
 from tictac import agent_s_o as agent
 
 
